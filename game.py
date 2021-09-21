@@ -17,3 +17,26 @@ options = ["rock", "paper", "scissors"]
 computer_choice = random.choice(options)
 print("Computer chose:")
 print(computer_choice)
+
+
+if ((computer_choice == "rock") and (user_choice == "rock"))
+    print("tie")
+if ((computer_choice == "paper") and (user_choice == "paper"))
+    print("tie")
+if ((computer_choice == "scissors") and (user_choice == "scissors"))
+    print("tie")
+if ((computer_choice == "rock") and (user_choice == "paper"))
+    print("you win! :)")
+if ((computer_choice == "rock") and (user_choice == "scissors"))
+    print("computer wins :(")
+if ((computer_choice == "paper") and (user_choice == "rock"))
+    print("computer wins :(")
+if ((computer_choice == "paper") and (user_choice == "scissors"))
+    print("you win! :)")
+if ((computer_choice == "scissors") and (user_choice == "rock"))
+    print("you win! :)")
+if ((computer_choice == "scissors") and (user_choice == "paper"))
+    print("computer wins :(")
+
+
+print("THANKS PLEASE PLAY AGAIN")
