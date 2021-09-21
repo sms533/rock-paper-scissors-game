@@ -7,9 +7,12 @@ print("Rock, Paper, Scissors, Shoot!")
 
 # prompt user for input
 
-user_choice = input("Choose 'rock' or 'paper' or 'scissors'")
-print("User chose:")
-print(user_choice)
+if user_choice = input("Choose 'rock' or 'paper' or 'scissors'"):
+    print("User chose:")
+    print(user_choice)
+else:
+    print("USER NOT VALID TRY AGAIN")
+    exit()
 
 # computer choice at random
 
