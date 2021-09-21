@@ -14,6 +14,7 @@ if user_choice in ("rock" or "paper" or "scissors"):
     print(user_choice)
 else:
     print("USER NOT VALID TRY AGAIN")
+exit()
 
 # computer choice at random
 
