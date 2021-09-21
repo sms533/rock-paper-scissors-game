@@ -2,7 +2,7 @@
 
 import random # load the module to avoid `NameError: name 'random' is not defined
 
-print(Welcome 'Player One' to my Rock-Paper-Scissors game...)
+print("Welcome Player One to my Rock-Paper-Scissors game...")
 print("Rock, Paper, Scissors, Shoot!")
 
 # prompt user for input
