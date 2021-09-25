@@ -6,9 +6,10 @@ load_dotenv()
 
 import random # load the module to avoid `NameError: name 'random' is not defined
 
-print(os.getenv("PLAYER_NAME"))
+Player_one=os.getenv("PLAYER_NAME")
 
-print("Welcome Player One to my Rock-Paper-Scissors game...")
+
+print("Welcome", Player_one, "to my Rock-Paper-Scissors game...")
 print("Rock, Paper, Scissors, Shoot!")
 
 # prompt user for input
