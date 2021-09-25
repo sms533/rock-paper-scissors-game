@@ -9,7 +9,7 @@ print("Rock, Paper, Scissors, Shoot!")
 
 
 user_choice = input("Choose 'rock' or 'paper' or 'scissors'")
-if user_choice in ("rock" or "paper" or "scissors"):
+if user_choice in ["rock", "paper", "scissors"]:
     print("User chose:")
     print(user_choice)
 else:
