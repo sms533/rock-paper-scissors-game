@@ -1,6 +1,12 @@
 # game.py
 
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
 import random # load the module to avoid `NameError: name 'random' is not defined
+
+print(os.getenv("PLAYER_NAME"))
 
 print("Welcome Player One to my Rock-Paper-Scissors game...")
 print("Rock, Paper, Scissors, Shoot!")
@@ -46,3 +52,4 @@ elif (computer_choice == "scissors") and (user_choice == "paper"):
 
 
 print("THANKS PLEASE PLAY AGAIN")
+
